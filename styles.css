@@ -23,8 +23,9 @@
 }
 
 body {
-    background-color: white;
+    background-color: rgb(162, 179, 255);
     margin: 0;
+
     
 }
 
@@ -96,7 +97,7 @@ transform: scale(1.2);
     display: flex;
     justify-items: center;
     align-items: center;
-    background-color: plum
+    background-color: rgb(162, 179, 255);
 }
 
 
@@ -123,7 +124,7 @@ transform: scale(1.2);
     max-height: 20%;
     margin-top: -10%;
     margin-bottom: 5%;
-    background-color: #e7b1f1;
+    background-color: rgb(127, 127, 206);
 }
 
 .YoImg{
