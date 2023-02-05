@@ -1,0 +1,198 @@
+@charset "UTF-8";
+/* Aquí definimos las Custom properties */
+:root {
+  --lila: #e7b1f1;
+  --blanco: #ececec;
+  --sombra-ppal: #c9c9c9;
+  --sombra-sec: #ffffff;
+  --borde-negro: #00000050;
+  --marcado: rgb(127, 195, 255);
+  /* Tipografía */
+  --tipo-principal: Helvetica, Arial, sans-serif;
+}
+
+/* Las adaptamos al modo oscuro */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --negro: #ececec;
+    --blanco: #edc5ff;
+    --sombra-ppal: #ffffffc4;
+    --sombra-sec: #fdf4ffc9;
+    --borde-negro: #FFFFFF50;
+  }
+}
+
+body {
+    background-color: white;
+    margin: 0;
+    
+}
+
+#Navbar {
+    background-color: rgb(127, 127, 206);
+    display:flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.pNavbar{
+    margin-left: 8%;
+    margin-right: 8%;
+    color: black;
+
+}
+#Carrusel{
+    background-color: plum;
+}
+.carrusel {
+height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.carrusel-items {
+display: flex;
+overflow-x: hidden;
+overflow-y: hidden;
+padding: 30px 0px;
+}
+
+.carrusel-item {
+min-width: 500px;
+max-width: 500px;
+height: 500px;
+outline: 2px solid black;
+cursor: pointer;
+}
+
+.carrusel-item img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+.carrusel-item:hover {
+transform: scale(1.2);
+}
+
+#Experiencia{
+    margin: 0;
+}
+
+.Exp1{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    background-color: rgb(162, 179, 255)
+}
+
+.Exp2{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    background-color: rgb(127, 127, 206);
+}
+.Exp3{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    background-color: plum
+}
+
+
+.ExpInf{
+    margin-right: 30%;
+    margin-left: 3%;
+}
+
+.liExp{
+    font-size:120%;
+    
+}
+
+.Val{
+    height: 30%;
+    margin-left: 5%;
+    border-radius: 50%;
+
+}
+
+#About_me{
+    display: flex;
+    padding: 10%;
+    max-height: 20%;
+    margin-top: -10%;
+    margin-bottom: 5%;
+    background-color: #e7b1f1;
+}
+
+.YoImg{
+   width: 40%;
+   max-height: 10%;
+}
+
+.AboutInfo{
+    margin-right: 10%;
+}
+
+.forminput{
+    display:block;
+}
+
+.form{
+    display: flex;
+    margin-left: 5%;
+}
+
+.textarea{
+    margin-left: 10%;
+    width: 180%;
+}
+
+#Contacto{
+    margin-right: auto;
+    margin-left: auto;
+    justify-items: center;
+    align-items: center;
+    margin-top: -50%;
+}
+
+.pcontact{
+    margin-bottom: 2%;
+    margin-left: 5%;
+}
+
+.flechitab{
+    border-radius: 400%;
+    width: 5%;
+}
+
+.flechita{
+    border-radius: 400%;
+    width: 20%;
+    margin-left: 45%;
+    margin-top: 10%;
+    
+}
+
+.logo{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.wa{
+    width: 14%;
+    margin-bottom: 10%;
+}
+
+.ig{
+    width: 20%;
+    margin-bottom: 7%;
+    border: #e7b1f1;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
